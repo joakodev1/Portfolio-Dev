@@ -5,31 +5,31 @@ export const AboutSection = () => {
         {" "}
         <div className="container mx-auto max-w-5xl">
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-                About <span className="text-primary"></span>
+                Sobre Mi <span className="text-primary"></span>
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
-                    <h3 className="text-2xl font-semibold">Passionate Web Developer & Engineer Of System</h3>
+                    <h3 className="text-2xl font-semibold">Desarrollador Web con Enfoque Full Stack & Estudiante Ing. Sistemas</h3>
 
                     <p className="text-muted-foreground">
                         {" "}
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias facere mollitia omnis quas molestiae optio ea quae temporibus voluptas adipisci modi voluptatibus incidunt sit suscipit, cupiditate accusantium tenetur. Accusantium, aut.
+                        Apasionado por transformar ideas en código funcional y escalable. Utilizo React, JavaScript y Tailwind/Bootstrap para construir interfaces Frontend intuitivas y modernas, mientras que en el Backend, desarrollo soluciones sólidas con Python, PHP y Django. Mi objetivo es siempre optimizar el rendimiento y garantizar la eficiencia en cada proyecto que abordo.
                     </p>
 
                     <p className="text-muted-foreground">
-                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ut error iusto autem odio necessitatibus, deleniti fugit, culpa in nesciunt eos beatae asperiores itaque. Fugiat dolorem quidem nisi facere rerum?
+                       Actualmente me encuentro cursando el primer año de la Ingeniería en Sistemas de Información en la UAI. Esta formación complementa mi experiencia práctica, dándome una base sólida. A futuro, me interesa explorar campos como la Ciberseguridad y el Análisis de Datos, buscando una especialización que combine mi expertise en desarrollo con el manejo estratégico de la información.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                     <a href="#contact" className="cosmic-button">
                         {" "}
-                        Get in Touch 
+                        Contactame 
                     </a>
 
                     <a href="#contact" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                     >
-                        Download CV
+                        Descargar CV
                     </a>
                         
                     </div>
@@ -42,9 +42,9 @@ export const AboutSection = () => {
                             <Code className="h-6 w-6 text-primary"></Code>
                             </div>
                             <div className="text-left">
-                                <h4 className="text-semibold text-lg">Web Development</h4>
+                                <h4 className="text-semibold text-lg">Desarrollador Frontend</h4>
                                 <p className="text-muted-foreground">
-                                  Creating responsive websites and web applications with modern frameworks.
+                                  Creando interfaces de usuario dinámicas y responsivas con React, JavaScript, Tailwind CSS y Bootstrap. Enfocado en la optimización de la experiencia de usuario (UX) y la calidad del código.
                                 </p>
                             </div>
                         </div>
@@ -55,9 +55,9 @@ export const AboutSection = () => {
                             <User className="h-6 w-6 text-primary"></User>
                             </div>
                             <div className="text-left">
-                                <h4 className="text-semibold text-lg">UX/UI Design</h4>
+                                <h4 className="text-semibold text-lg">Desarrollador Backend</h4>
                                 <p className="text-muted-foreground">
-                                  Creating responsive websites and web applications with modern frameworks.
+                                  Implementando la lógica del negocio con Python, Django y PHP. Diseño de APIs robustas y aseguramiento de la escalabilidad del sistema para manejar grandes volúmenes de datos.
                                 </p>
                             </div>
                         </div>
@@ -69,9 +69,9 @@ export const AboutSection = () => {
                             </div>
 
                             <div className="text-left">
-                                <h4 className="text-semibold text-lg">Engineer of System</h4>
+                                <h4 className="text-semibold text-lg">Estudiante Ing. Sistemas</h4>
                                 <p className="text-muted-foreground">
-                                  Creating responsive websites and web applications with modern frameworks.
+                                  Cursando Ingeniería en Sistemas de Información en la UAI. Desarrollo de una base teórica sólida con miras a especializarme en Ciberseguridad o Ciencia de Datos.
                                 </p>
                             </div>
                         </div>
